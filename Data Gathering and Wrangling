@@ -1,4 +1,7 @@
 Download 2020, 2021, 2022, 2023 vaccines data files in excel sheet format from VAERs as a compressed file. Each year data comprises of 3 different excel files ((Vaccines data, Adverse events data, Patients data).
-Merge all 3 individual files by using Spotfire to create a single tracker for each  respective'Year'. In this process, all columns from 3 different excel files  were merged to create Single excel sheet for each year.
+Merge all 3 individual files by using Spotfire to create a single tracker for each  respective'Year'. 
+In above process, all columns from 3 different excel files  were merged to create Single excel sheet for each year.
 Now merge 2020, 2021, 2022, 2023 data as rows in Spotfire to create a Single Master Tracker with 13,34,040 patient records.
-
+Filter out records in which adcerse events occured within 30days of vaccines administration to establish causal relationship between Vaccine and adverse events. This creates 9,26,931 patient records.
+Include patients records who received COVID vaccines to create final tracker with 800192 records (8lakhs patients who experienced side effects in <30days of vaccine shot).
+Performed Spotfire - Exploratory Data Analysis to draw insights. Since female records are extremely higher than male records, gender could not be considered as variable for ML prediction.
