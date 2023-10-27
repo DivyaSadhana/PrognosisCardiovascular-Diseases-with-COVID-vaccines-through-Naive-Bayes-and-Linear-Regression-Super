@@ -1,1 +1,4 @@
-Download 2020, 2021, 2022, 2023 vaccines data from VAERs.
+Download 2020, 2021, 2022, 2023 vaccines data files in excel sheet format from VAERs as a compressed file. Each year data comprises of 3 different excel files ((Vaccines data, Adverse events data, Patients data).
+Merge all 3 individual files by using Spotfire to create a single tracker for each  respective'Year'. In this process, all columns from 3 different excel files  were merged to create Single excel sheet for each year.
+Now merge 2020, 2021, 2022, 2023 data as rows in Spotfire to create a Single Master Tracker with 13,34,040 patient records.
+
